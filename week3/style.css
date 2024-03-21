@@ -1,9 +1,27 @@
-* {
-    color: hotpink;
+body {
+    font-size: 1.2rem;
+    font-family: "Kulim Park", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
-h1 {
+h1{
+    font-size: 3rem;
     color: brown;
+    font-weight: 900;
+   /*    text-transform: uppercase; */
+   text-align: center;
+   font-family: "Kulim Park", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
-h2 {
-    color: green;
+}
+h2{
+    font-size: 2rem;
+    color: coral;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+p{
+    line-height: 1.4;
+    padding-bottom: 1.4;
 }
