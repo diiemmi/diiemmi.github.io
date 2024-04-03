@@ -14,7 +14,12 @@ h1{
   font-weight: 700;
   font-style: normal;
 }
+
+a:hover{
+    font-size: 1.4rem;
+    color: palegreen;
 }
+
 h2{
     font-size: 2rem;
     color: coral;
