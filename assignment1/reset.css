@@ -36,12 +36,20 @@ h6 {
 text-wrap: balance;
 }
 p {
+font-size: 1rem;
 max-width: 75ch;
 text-wrap: pretty; /* Prevents orphans on lines */
+margin-bottom: 2rem;
 }
 @media (prefers-reduced-motion: no-preference) {
 :has(:target) {
 scroll-behavior: smooth;
 scroll-padding-top: 3rem;
 }
+}
+.title {
+    font-size: 5rem; 
+}
+.subtitle {
+    font-size: 3rem;
 }
