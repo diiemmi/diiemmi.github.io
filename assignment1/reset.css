@@ -18,6 +18,7 @@ hanging-punctuation: first last; /* Not supported in Chrome */
 }
 body {
 min-height: 100vh;
+padding: 4rem;
 }
 /* Media responsive */
 img,
@@ -34,6 +35,7 @@ h4,
 h5,
 h6 {
 text-wrap: balance;
+font-size: 4rem;
 }
 p {
 font-size: 1rem;
