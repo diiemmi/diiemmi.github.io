@@ -35,13 +35,17 @@ h4,
 h5,
 h6 {
 text-wrap: balance;
-font-size: 4rem;
+font-size: 1rem;
+margin-bottom: 3rem;
 }
 p {
 font-size: 1rem;
-max-width: 75ch;
+max-width: 75chh;
 text-wrap: pretty; /* Prevents orphans on lines */
 margin-bottom: 2rem;
+}
+ul {
+    max-width: 75ch;
 }
 @media (prefers-reduced-motion: no-preference) {
 :has(:target) {
