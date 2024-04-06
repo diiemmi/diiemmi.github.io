@@ -40,7 +40,7 @@ margin-bottom: 3rem;
 }
 p {
 font-size: 1rem;
-max-width: 75chh;
+max-width: 75ch;
 text-wrap: pretty; /* Prevents orphans on lines */
 margin-bottom: 2rem;
 }
