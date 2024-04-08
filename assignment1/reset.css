@@ -38,6 +38,7 @@ text-wrap: balance;
 font-size: 1rem;
 margin-bottom: 1rem;
 margin-top: 3rem;
+max-width: 75ch;
 }
 p {
 font-size: 1rem;
