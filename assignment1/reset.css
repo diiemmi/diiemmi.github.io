@@ -47,6 +47,7 @@ margin-bottom: 2rem;
 }
 ul {
     max-width: 75ch;
+    margin-top: 1rem;
 }
 @media (prefers-reduced-motion: no-preference) {
 :has(:target) {
