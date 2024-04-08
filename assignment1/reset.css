@@ -35,19 +35,23 @@ h4,
 h5,
 h6 {
 text-wrap: balance;
-font-size: 1rem;
+font-size: 1.2rem;
 margin-bottom: 1rem;
 margin-top: 3rem;
 max-width: 75ch;
-font-weight: 800;
-text-align: center;
+font-family: "Cormorant Garamond", serif;
+  font-weight: 900;
+  font-style: normal;
 }
 p {
-font-size: 1rem;
+font-size: 1.2rem;
 max-width: 75ch;
 text-wrap: pretty; /* Prevents orphans on lines */
 margin-bottom: 2rem;
-text-align: center;
+font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 ul {
     max-width: 75ch;
