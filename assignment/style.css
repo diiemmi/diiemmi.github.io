@@ -1,0 +1,139 @@
+/* body {
+    font-size: 1rem;
+    font-family: "Kulim Park", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+} */
+h1{
+    font-size: 9rem;
+    color: #005247;
+    font-weight: 900;
+   /*    text-transform: uppercase; */
+   text-align: center;
+   border-bottom: 1px solid #005247;
+    font-family: "Vina Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h2 {
+    color: #510800;
+    font-size: 1.3rem;
+  }
+
+ .container1 {
+    /* border: 2px ridge red; */
+    font-size: 1.5rem;
+    padding: 1.5em;
+    margin: 1.5em;
+    background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+    border-radius: 30px;
+ }
+
+ .container2 {
+  /* border: 2px ridge red; */
+  font-size: 1.5rem;
+  padding: 1.5em;
+  margin: 1.5em;
+  background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+  border-radius: 30px;
+}
+
+.container3 {
+  /* border: 2px ridge red; */
+  font-size: 1.5rem;
+  padding: 1.5em;
+  margin: 1.5em;
+  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  border-radius: 30px;
+}
+
+.container4 {
+/* border: 2px ridge red; */
+font-size: 1.5rem;
+padding: 1.5em;
+margin: 1.5em;
+background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+border-radius: 30px;
+}
+
+.container5 {
+  /* border: 2px ridge red; */
+  font-size: 1.5rem;
+  padding: 1.5em;
+  margin: 1.5em;
+  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  border-radius: 30px;
+}
+
+.container6 {
+/* border: 2px ridge red; */
+font-size: 1.5rem;
+padding: 1.5em;
+margin: 1.5em;
+background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+border-radius: 30px;
+}
+
+.container7 {
+  /* border: 2px ridge red; */
+  font-size: 1.5rem;
+  padding: 1.5em;
+  margin: 1.5em;
+  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  border-radius: 30px;
+}
+
+.container8 {
+/* border: 2px ridge red; */
+font-size: 1.5rem;
+padding: 1.5em;
+margin: 1.5em;
+background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+border-radius: 30px;
+}
+
+.container9 {
+  /* border: 2px ridge red; */
+  font-size: 1.5rem;
+  padding: 1.5em;
+  margin: 1.5em;
+  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  border-radius: 30px;
+}
+
+.container10 {
+/* border: 2px ridge red; */
+font-size: 1.5rem;
+padding: 1.5em;
+margin: 1.5em;
+background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+border-radius: 30px;
+}
+
+.container11 {
+  /* border: 2px ridge red; */
+  font-size: 1.5rem;
+  padding: 1.5em;
+  margin: 1.5em;
+  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  border-radius: 30px;
+}
+
+.container12 {
+/* border: 2px ridge red; */
+font-size: 1.5rem;
+padding: 1.5em;
+margin: 1.5em;
+background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+border-radius: 30px;
+}
+
+.container13 {
+  /* border: 2px ridge red; */
+  font-size: 1.5rem;
+  padding: 1.5em;
+  margin: 1.5em;
+  background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+  border-radius: 30px;
+  }

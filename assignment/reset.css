@@ -1,0 +1,77 @@
+/*
+* Kevin Powell
+* https://youtu.be/cCAtD_BAHNw
+*/
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+* {
+margin: 0;
+padding: 0;
+font: inherit; /* Get rid of all font sizes and heights */
+}
+html {
+color-scheme: blue; /* Default dark */
+hanging-punctuation: first last; /* Not supported in Chrome */
+background-image: linear-gradient(to left bottom, #f29441, #fa995d, #ff9f76, #ffa78e, #ffb1a3, #feafa5, #fdada6, #fbaba8, #f89c99, #f48d89, #ef7e7a, #ea6f6b);
+}
+body {
+min-height: 100vh;
+padding: 4rem;
+}
+/* Media responsive */
+img,
+picture,
+svg,
+video {
+display: block;
+max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+text-wrap: balance;
+font-size: 1.2rem;
+/* margin-bottom: 1rem; */
+/* margin-top: 3rem; this made the gap above the question and the top border too big*/
+/* max-width: 75ch; */
+font-family: "Cormorant Garamond", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+p {
+font-size: 1.2rem;
+/* max-width: 75ch; changed this to see whether it was nice to have it fill the screen*/ 
+text-wrap: pretty; /* Prevents orphans on lines */
+/* margin-bottom: 2rem; this made the gap beloe the question and the bottom border too big*/
+font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+ul {
+    /* max-width: 75ch; */
+    margin-top: 1rem; /*not doing anything */
+    margin-bottom: 1rem; /*not doing anything */
+    font-size: 1.2rem;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media (prefers-reduced-motion: no-preference) {
+:has(:target) {
+scroll-behavior: smooth;
+scroll-padding-top: 3rem;
+}
+}
+.title {
+    font-size: 5rem; 
+} 
+.subtitle {
+    font-size: 3rem;
+}
