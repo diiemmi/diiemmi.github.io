@@ -15,7 +15,7 @@ font: inherit; /* Get rid of all font sizes and heights */
 html {
 color-scheme: blue; /* Default dark */
 hanging-punctuation: first last; /* Not supported in Chrome */
-background-image: linear-gradient(to left bottom, #f29441, #fa995d, #ff9f76, #ffa78e, #ffb1a3, #feafa5, #fdada6, #fbaba8, #f89c99, #f48d89, #ef7e7a, #ea6f6b);
+background-image: linear-gradient(to left bottom, #f29441, #fa995d, #ff9f76, #ffa78e, #ffb1a3, #feafa5, #fdada6, #fbaba8, #f89c99, #f48d89, #ef7e7a, #ea6f6b); /* I found that graadient backgrounds made the html look more impreessive than a plain background and didn't even realise I could do that until I used my color space */
 }
 body {
 min-height: 100vh;
@@ -75,3 +75,4 @@ scroll-padding-top: 3rem;
 .subtitle {
     font-size: 3rem;
 }
+

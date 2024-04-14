@@ -6,19 +6,19 @@
 } */
 h1{
     font-size: 9rem;
-    color: #005247;
+    color: #005247; /* the colours used on the website had some warm colours and I wanted mine to have the same undertones so the colours used are very warm and autumnal */
     font-weight: 900;
    /*    text-transform: uppercase; */
    text-align: center;
-   border-bottom: 1px solid #005247;
-    font-family: "Vina Sans", sans-serif;
+   border-bottom: 1px solid #005247; /* wanted a line to separate the heading and paragraphs */ 
+    font-family: "Vina Sans", sans-serif; /* I liked how the websites utilised very big and bold font for their headings and I wanted to replicate it */
     font-weight: 400;
     font-style: normal;
   }
 
   h2 {
-    color: #510800;
-    font-size: 1.3rem;
+    color: #510800; /* I wanted the questions to be separate to the answers by making them different colours */ 
+    font-size: 1.3rem; /* also used a larger font size to enphasise the heirarchy */
   }
 
  .container1 {
@@ -26,7 +26,7 @@ h1{
     font-size: 1.5rem;
     padding: 1.5em;
     margin: 1.5em;
-    background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+    background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93); /* I wanted each answer to be in individual boxes so it's easier to read and I purposely made the gradient of the boxes go against the gradient of the background */ 
     border-radius: 30px;
  }
 
@@ -35,7 +35,7 @@ h1{
   font-size: 1.5rem;
   padding: 1.5em;
   margin: 1.5em;
-  background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+  background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a); /* I reversed the gradient so it wouldn't look too uniform across the entire page */
   border-radius: 30px;
 }
 
@@ -62,7 +62,7 @@ border-radius: 30px;
   font-size: 1.5rem;
   padding: 1.5em;
   margin: 1.5em;
-  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  background-image: linear-gradient(to left, #ffbfbd, #fdb5b3, #fcaca9, #f9a29e, #f79894); /* I wanted to change the gradient so it would match the colours of the background so I changed the orange to a pink */
   border-radius: 30px;
 }
 
@@ -71,7 +71,7 @@ border-radius: 30px;
 font-size: 1.5rem;
 padding: 1.5em;
 margin: 1.5em;
-background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+background-image: linear-gradient(to right, #ffbfbd, #fdb5b3, #fcaca9, #f9a29e, #f79894);
 border-radius: 30px;
 }
 
@@ -80,7 +80,7 @@ border-radius: 30px;
   font-size: 1.5rem;
   padding: 1.5em;
   margin: 1.5em;
-  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  background-image: linear-gradient(to left, #ffbfbd, #fdb5b3, #fcaca9, #f9a29e, #f79894);
   border-radius: 30px;
 }
 
@@ -89,7 +89,7 @@ border-radius: 30px;
 font-size: 1.5rem;
 padding: 1.5em;
 margin: 1.5em;
-background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+background-image: linear-gradient(to right, #ffbfbd, #fdb5b3, #fcaca9, #f9a29e, #f79894);
 border-radius: 30px;
 }
 
@@ -98,7 +98,7 @@ border-radius: 30px;
   font-size: 1.5rem;
   padding: 1.5em;
   margin: 1.5em;
-  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  background-image: linear-gradient(to left, #ffbfbd, #fdb5b3, #fcaca9, #f9a29e, #f79894);
   border-radius: 30px;
 }
 
@@ -107,7 +107,7 @@ border-radius: 30px;
 font-size: 1.5rem;
 padding: 1.5em;
 margin: 1.5em;
-background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+background-image: linear-gradient(to right, #ffbfbd, #fdaeac, #fa9d9b, #f68b8a, #f27979); /* I made the pink a bit darker this time because the background was getting darker as you scroll down */
 border-radius: 30px;
 }
 
@@ -116,7 +116,7 @@ border-radius: 30px;
   font-size: 1.5rem;
   padding: 1.5em;
   margin: 1.5em;
-  background-image: linear-gradient(to left, #ffbfbd, #ffbab3, #ffb5a9, #ffb19e, #ffad93);
+  background-image: linear-gradient(to left, #ffbfbd, #fdaeac, #fa9d9b, #f68b8a, #f27979);
   border-radius: 30px;
 }
 
@@ -125,7 +125,7 @@ border-radius: 30px;
 font-size: 1.5rem;
 padding: 1.5em;
 margin: 1.5em;
-background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+background-image: linear-gradient(to right, #ffbfbd, #fdaeac, #fa9d9b, #f68b8a, #f27979);
 border-radius: 30px;
 }
 
@@ -134,6 +134,8 @@ border-radius: 30px;
   font-size: 1.5rem;
   padding: 1.5em;
   margin: 1.5em;
-  background-image: linear-gradient(to right, #ffbfbd, #ffb5ab, #ffac97, #ffa581, #ff9f6a);
+  background-image: linear-gradient(to left, #ffbfbd, #feadab, #fc9a98, #fa8886, #f67474); /* I made this red a bit dark so the outline of the box would be more obvious becuase the previous red blended into the background */
   border-radius: 30px;
   }
+
+ 
