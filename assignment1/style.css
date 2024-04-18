@@ -15,6 +15,87 @@ h1{
     font-weight: 400;
     font-style: normal;
   }
-  
-  
 
+  ul {
+    margin: 0;
+    padding: 0;
+    min-height: 150px;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    min-height: 150px;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+  }
+
+  .inner {
+    margin: 0;
+    padding: 0;
+    min-height: 150px;
+    list-style: none;
+    display: flex;
+    gap: rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+  }
+
+  h2,p {
+    /* flex: 1; already green*/ 
+    /* background-color: lightblue; */
+    /* flex-grow: 1; already green*/
+    /* padding: 0 10px; */
+  }
+    .questions {
+      display: grid;
+      /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 1rem;
+    }
+  
+    #q {
+      /* border: 2px dashed #e5e5cb; */
+      /* margin: 50px 0; */
+      width: 500px;
+      min-height: 500px;
+      padding: 10px;
+      display: grid;
+      gap: 1rem;
+      /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: repeat(4, 1fr);
+  
+    }
+
+    #q > * {
+      width: 100%;
+      height: 100%;
+      /* width: 50px;
+      height: 50px;
+      justify-content: start; */
+      /* align-self: center;
+      justify-self: center; */
+    }
+    
+  #q1 {
+      background-color: limegreen;
+  }
+  
+.container {
+  border: 2px dashed red;
+}
