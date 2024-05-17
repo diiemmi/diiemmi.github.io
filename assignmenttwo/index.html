@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- as always we have the outer box that acts as a container for video  -->
+    <div class="outer">
+      <!-- We divide the content of the box into three sections
+      1. video-container = it contains the videoplayer as well as playlist
+      2. video-title = it contains meta information about video currently being played
+      3. video-controls = it gives options for users to control the video such as 
+         play, pause, make it fullscreen etc.  -->
+      <section class="video-container">
+        <!-- we further divide video-container into two sections
+        1. video player
+        2. video-list: a section containing clickable images of videos 
+           that can be played.  -->
+        <video id="my-video" controls>
+          <source src="https://videos.pexels.com/video-files/5447344/5447344-hd_2048_1080_24fps.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <section class="video-list">
+          <!-- We use buttons, whenever user clicks on them, the correspoding 
+          video will be played  -->
+          <button id="first-video-btn">
+            <img id="first-video-img" src="rain.jpg" alt="rain" />
+          </button>
+          <button id="second-video-btn">
+            <img id="second-video-img" src="waves.jpg" alt="waves" />
+          </button>
+          <button id="third-video-btn">
+            <img id="third-video-img" src="fire.jpg" alt="fire" />
+          </button>
+        </section>
+      </section></div>
+
+    <div class="outer">
+      <audio controls src="ocean.mp3"></audio>
+
+      <section class="sound-title">
+        <!-- in this section, we display the name of the video and current playtime -->
+        <h1>Now Playing: <span id="sound-name"></span></h1>
+        <h1>Current playtime: <span id="sound-time"></span></h1>
+      </section>
+      <section class="sound-controls">
+        <!-- Here we create controls using buttons to play pause video
+        as well as use a div to show progress.  -->
+        <button id="play-pause-btn">
+          <img
+            id="play-pause-img"
+            src="https://img.icons8.com/ios-glyphs/30/play--v1.png"
+            alt="Play Button"
+            width="24"
+            height="24"
+          />
+        </button>
+        <button id="mute-unmute-btn">
+          <img
+            id="mute-unmute-img"
+            src="https://img.icons8.com/ios-glyphs/30/no-audio--v1.png"
+            alt="Mute Button"
+            width="24"
+            height="24"
+          />
+        </button>
+
+        <div class="progress-bar">
+          <span id="progress-bar-fill"></span>
+        </div>
+        <button id="loop-btn">
+          <img
+            id="loop-img"
+            src="https://img.icons8.com/ios-glyphs/30/repeat.png"
+            alt="Loop Button"
+            width="24"
+            height="24"
+          />
+        </button>
+        <button id="decrease-volume-btn">
+          <img
+            id="decrease-volume-img"
+            src="https://img.icons8.com/ios-glyphs/30/low-volume.png"
+            alt="Decrease volume Button"
+            width="24"
+            height="24"
+          />
+        </button>
+        <button id="increase-volume-btn">
+          <img
+            id="increase-volume-img"
+            src="https://img.icons8.com/ios-glyphs/30/high-volume--v1.png"
+            alt="Increase volume Button"
+            width="24"
+            height="24"
+          />
+        </button>
+      </section>
+      </div>
