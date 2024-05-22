@@ -91,6 +91,35 @@ const videoList = [
     myVideo.pause();
     playVideo(2);
   });
+
+
+ // Array containing the sound files
+const soundList = [
+  "ocean.mp3",
+  "rain.mp3",
+];
+
+// Get references to sound-related elements
+const mySound = document.querySelector("#my-sound");
+const firstSoundButton = document.querySelector("#first-sound-btn");
+const secondSoundButton = document.querySelector("#second-sound-btn");
+
+// Event listeners for sound buttons
+firstSoundButton.addEventListener("click", function() {
+  playSound(0); // Play the first sound in the soundList array
+});
+
+secondSoundButton.addEventListener("click", function() {
+  playSound(1); // Play the second sound in the soundList array
+});
+
+// Function to play sound based on its index in the soundList array
+function playSound(index) {
+  mySound.src = soundList[index];
+  mySound.play();
+}
+
+
   
   //video will be played if it is currently paused or ended
   //otherwise the same function will pause the video
@@ -179,3 +208,5 @@ const videoList = [
       console.log("Exited fullscreen");
     }
   });
+
+  
